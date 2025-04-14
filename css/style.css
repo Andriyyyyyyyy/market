@@ -39,4 +39,19 @@ div {
 }
 
 .item {
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: space-between;
+ /* gap: 2px; */
+}
+.item {
+    width: 200px;
+    height: 320px;
+    margin-bottom: 10px;
+
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0, 3);
+
 }
