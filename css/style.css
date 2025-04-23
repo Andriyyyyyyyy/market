@@ -5,12 +5,12 @@ body {
     justify-content: center;
 }
 
-content {
-    width: 420px;
+.content {
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
 }
 
 .title {
@@ -31,12 +31,12 @@ content {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
 }
 
 .item {
-    width: 200px;
+    width: calc(50% - 10px);
     padding: 10px;
     background: white;
     border: 1px solid rgb(194, 194, 194);
@@ -120,4 +120,3 @@ content {
     border-radius: 5px;
     margin: 10px;
 }
-
